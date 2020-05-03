@@ -2,6 +2,7 @@
   "name": "auto-computer.client",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.6",
     "node-sass": "^4.14.0",
