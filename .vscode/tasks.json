@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "Watch React",
+			"detail": "react-scripts start",
+			"runOptions": {
+				"runOn": "folderOpen",
+			},
+		},
+		{
+			"type": "npm",
+			"script": "watch-sass-modules",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Watch Sass Modules",
+			"detail": "tsm ./src/style/**/*.sass -w",
+			"runOptions": {
+				"runOn": "folderOpen",
+			},
+		},
+	]
+}

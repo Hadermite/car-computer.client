@@ -1,0 +1,6 @@
+/src/style/**/*.d.ts
+/node_modules
+/build
+.DS_Store
+npm-debug.log*
+.env.local
